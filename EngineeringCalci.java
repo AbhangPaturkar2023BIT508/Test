@@ -73,4 +73,12 @@ public class EngineeringCalci {
 		result = value * value * value;
 		return result;
 	}
+
+	public static int factorial(int value) {
+		int fact = 1;
+		for (int i = 1; i <= value; i++) {
+			fact = fact * 1;
+		}
+		return fact; // Return result of operation performed.
+	}
 }
