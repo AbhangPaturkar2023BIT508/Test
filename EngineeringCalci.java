@@ -67,4 +67,12 @@ public class EngineeringCalci {
 											// value
 		return result; // Return result of operation performed.
 	}
+
+	public static int factorila(int value) {
+		int fact = 1;
+		for (int i = 1; i <= value; i++) {
+			fact = fact * 1;
+		}
+		return fact; // Return result of operation performed.
+	}
 }
