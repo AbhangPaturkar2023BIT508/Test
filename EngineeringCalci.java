@@ -68,7 +68,7 @@ public class EngineeringCalci {
 		return result; // Return result of operation performed.
 	}
 
-	public static int factorila(int value) {
+	public static int factorial(int value) {
 		int fact = 1;
 		for (int i = 1; i <= value; i++) {
 			fact = fact * 1;
