@@ -81,4 +81,10 @@ public class EngineeringCalci {
 		}
 		return fact; // Return result of operation performed.
 	}
+
+	public static int square(int value) {
+		int result;
+		result = value * value;
+		return result;
+	}
 }
