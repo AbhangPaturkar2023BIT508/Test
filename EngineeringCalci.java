@@ -67,4 +67,10 @@ public class EngineeringCalci {
 											// value
 		return result; // Return result of operation performed.
 	}
+
+	float cube(int value) {
+		int result;
+		result = value * value * value;
+		return result;
+	}
 }
